@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+  
+<suite name="amazon project test Automation Suite" >
+  <test name="amazon project test cases" >
+  
+
+    <classes>
+    	<class name= "com.amazon.testcases.CreateAccountTestCases"> </class>
+    	
+  		<class name= "com.amazon.testcases.SignInTestCases"> </class>
+  
+               </classes>
+ 		 </test>
+  </suite>
+  

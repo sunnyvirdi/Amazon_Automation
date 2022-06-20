@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.amazon.testcases.ShippingTestCases">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Yourorders"/>
+          <include name="SelectItem"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.ShippingTestCases -->
+      <class name="com.amazon.testcases.YourPayementTestCases">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="AddCardDetails"/>
+          <include name="YourPayement"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.YourPayementTestCases -->
+      <class name="com.amazon.testcases.SignInTestCases">
+        <methods>
+          <include name="SignIn"/>
+          <include name="closebowser"/>
+          <include name="ExistingCustomer" invocation-numbers="0 2 4"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.SignInTestCases -->
+      <class name="com.amazon.testcases.YourAddressTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="closebrowser"/>
+          <include name="Address" invocation-numbers="0 6"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.YourAddressTestCases -->
+      <class name="com.amazon.testcases.SearchTestCases">
+        <methods>
+          <include name="search"/>
+          <include name="seachItem"/>
+          <include name="CloseBrowser"/>
+          <include name="partialitem"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.SearchTestCases -->
+      <class name="com.amazon.testcases.GuestAccountTestCases">
+        <methods>
+          <include name="Yourorders"/>
+          <include name="closebrowser"/>
+          <include name="GuestAccount"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.GuestAccountTestCases -->
+      <class name="com.amazon.testcases.YourOrdersTestCases">
+        <methods>
+          <include name="OtherOptions"/>
+          <include name="closebrowser"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.YourOrdersTestCases -->
+      <class name="com.amazon.testcases.CreateAccountTestCases">
+        <methods>
+          <include name="name"/>
+          <include name="closebrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.CreateAccountTestCases -->
+      <class name="com.amazon.testcases.ShoppingTestCases">
+        <methods>
+          <include name="Cart"/>
+          <include name="CloseBrowser"/>
+          <include name="ShoppingCart"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.ShoppingTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
